@@ -23,7 +23,7 @@ export const Header = () => {
         <div>
           {isLoggedIn ? (
             <>
-              <Button text="Dashboard" class="btn-info" url="/" />
+              <Button text="Dashboard" class="btn-info" url="/dashboard" />
               &nbsp;
               <button className="btn btn-danger" onClick={handleLogout}>
                 Logout

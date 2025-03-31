@@ -29,7 +29,7 @@ export const Login = () => {
       localStorage.setItem("refreshToken", response.data.refresh);
       console.log("Login successful");
       setIsLoggedIn(true);
-      navigate("/");
+      navigate("/dashboard");
     } catch (error) {
       console.error("Invalid credentials", error);
       setError(error.response.data["detail"]);

@@ -12,7 +12,7 @@ export const Main = () => {
           nam. Repudiandae nihil atque voluptatibus reiciendis dolores fugiat,
           optio fuga sint repellat.
         </p>
-        <Button text="login" class="btn-outline-info" />
+        <Button text="Explore Now" class="btn-outline-info" url="/dashboard" />
       </div>
     </div>
   );
